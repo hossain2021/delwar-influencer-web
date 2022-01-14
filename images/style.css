@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Merriweather', serif;
+}
+/* ---------------
+Top-section
+--------------- */
+.container-top{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px;
+
+}
+h1{
+    font-weight: 900;
+    margin-bottom: 30px;
+    font-size: 3rem;
+   
+}
+.left{
+    max-width: 50%;
+}
+.right{
+    max-width: 50%;
+}
+.btn{
+    background-color: #E02C6D;
+    padding:6px 10px;
+    border-radius: 30px;
+    margin-top:20px;
+    border: none;
+}
+/* Popular-brand */
+.icon-brand{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid gray;
+}
+/* Item-section */
+main h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2rem;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 50px;
+}
+footer{
+    background-color: rgb(77, 77, 201);
+    text-align: center;
+}
+span a{
+    color:white;
+}
