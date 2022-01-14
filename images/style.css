@@ -47,15 +47,43 @@ main h2{
     margin-top: 30px;
     font-size: 2rem;
 }
+/* item */
 section{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    
     margin: 50px;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
 }
-footer{
+section div{
+   
+   background-color: #D6D7DB;
+   border-radius: 5px;
+}
+section div img{
+    min-width: 100%;
+}
+/* down-content */
+.down-btn{
+    display: block;
+  margin-left: 1200px;
+   color: #E02C6D;
+    border: none;
+
+}
+.fearured{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.fearured-btn{
+  background-color: #E02C6D;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+footer ,a{
     background-color: rgb(77, 77, 201);
     text-align: center;
-}
-span a{
-    color:white;
+    color: white;
 }
